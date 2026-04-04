@@ -144,22 +144,22 @@ export function createRecipe(): RecipeDefinition {
 
     i18n: {
       fr: {
-        name: "Lumiere sur interrupteur",
+        name: "Lumière sur interrupteur",
         description:
-          "Les lumieres suivent les commandes manuelles — un appui sur un bouton bascule les lumieres on/off. Pour les pieces sans capteur de mouvement, controlees par interrupteurs ou telecommandes.",
+          "Allume ou éteint les lumières d'une pièce via un interrupteur ou une télécommande Zigbee. Chaque appui bascule l'état des lumières.",
         slots: {
-          zone: { name: "Zone", description: "Zone contenant les lumieres" },
+          zone: { name: "Zone", description: "Pièce contenant les lumières" },
           lights: {
-            name: "Lumieres",
-            description: "Lumieres a controler (doivent appartenir a la zone)",
+            name: "Lumières",
+            description: "Lumières à contrôler",
           },
           buttons: {
             name: "Interrupteurs",
-            description: "Interrupteurs physiques pour allumer/eteindre",
+            description: "Boutons ou télécommandes qui déclenchent l'allumage/extinction",
           },
           maxOnDuration: {
-            name: "Extinction auto (securite)",
-            description: "Coupe les lumieres apres cette duree — anti-oubli",
+            name: "Extinction automatique",
+            description: "Éteint automatiquement après cette durée (protection anti-oubli)",
           },
         },
       },
