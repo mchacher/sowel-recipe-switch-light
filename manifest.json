@@ -1,0 +1,17 @@
+{
+  "id": "switch-light",
+  "type": "recipe",
+  "name": "Switch Light",
+  "version": "1.0.0",
+  "description": "Lights follow manual commands — any button press toggles lights on/off. For rooms without motion sensors, controlled via wall switches, remotes, or smart buttons.",
+  "icon": "ToggleRight",
+  "repo": "mchacher/sowel-recipe-switch-light",
+  "author": "mchacher",
+  "tags": ["automation", "button", "light", "toggle"],
+  "i18n": {
+    "fr": {
+      "name": "Lumiere sur interrupteur",
+      "description": "Les lumieres suivent les commandes manuelles — un appui sur un bouton bascule les lumieres on/off. Pour les pieces sans capteur de mouvement, controlees par interrupteurs ou telecommandes."
+    }
+  }
+}
