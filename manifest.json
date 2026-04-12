@@ -7,11 +7,17 @@
   "icon": "ToggleRight",
   "repo": "mchacher/sowel-recipe-switch-light",
   "author": "mchacher",
-  "tags": ["automation", "button", "light", "toggle"],
+  "tags": [
+    "automation",
+    "button",
+    "light",
+    "toggle"
+  ],
   "i18n": {
     "fr": {
       "name": "Lumière sur interrupteur",
       "description": "Allume ou éteint les lumières d'une pièce via un interrupteur ou une télécommande Zigbee. Chaque appui bascule l'état des lumières."
     }
-  }
+  },
+  "sowelVersion": ">=0.10.0"
 }
